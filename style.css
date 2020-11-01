@@ -105,7 +105,7 @@ nav .brand {
   flex-direction: row;
 }
 
-#specializing {
+#specializing, #experience {
   background-color: #fff;
   margin-left: 168px;
   margin-right: 168px;
@@ -113,13 +113,17 @@ nav .brand {
   margin-bottom: 16px;
 }
 
-#specializing h3 {
+#experience {
+  background-color: transparent;
+}
+
+#specializing h3, #experience h3 {
   color: #F05D7B;
   font-weight: 400;
   text-transform: uppercase;
 }
 
-#specializing h1 {
+#specializing h1, #experience h1 {
   font-size: 24px;
   font-weight: 800;
   text-transform: uppercase;
@@ -159,4 +163,13 @@ nav .brand {
 
 .mb-72 {
   margin-bottom: 72px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+.pyx {
+  padding: 24px;
 }
